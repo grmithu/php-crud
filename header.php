@@ -10,15 +10,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <!-- Datatable CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+    <title>PHP CRUD</title>
 
-    <title>Hello, world!</title>
 
-    <style type="text/css">
-      section{ padding: 150px 0; }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
   </head>
   <body>
+
+
+  <section>
+    <div class="container">
+    <nav class="navbar navbar-head navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.php">CREATE</a>
+                    <a class="nav-link" href="allUsers.php">READ</a>
+                    <!-- <a class="nav-link" href="updateUsers.php">UPDATE</a> -->
+                </div>
+            </div>
+        </div>
+        </nav>
+    </div>
+</section>
